@@ -1,0 +1,1571 @@
+<html
+  class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers"
+  lang="zxx"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Personal Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
+    />
+
+    <!-- boottrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/pagespeed.css" />
+  </head>
+  <body style="overflow: visible">
+    <div id="preloader-active" style="display: none">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="preloader-circle"></div>
+          <div class="preloader-img pere-text">
+            <img
+              src="data:image/webp;base64,UklGRoACAABXRUJQVlA4IHQCAABQDgCdASosADEAPm0qkUWkIqGZWScwQAbEswBl0OBdz/XJsA7QG2A0MzqJfQA6V/ygLt6/C/if0CB+ciTtmIsDyAP696BOcX6j9gn9XyH428AZ6v6bOVyHf7qm9Drff3THDCWGckMEWwQJgXZD9b6sT09rfjTyXRiHPgAA/v7s8KUBKtL0wnIHoOJtbSyhmdA5voUiYapgYu3ndmsFmpEEVFiJASnSOn5KHfOydzE1zWf/y5Wv16uUzfmNCr1hcz/rChb5PytYTILH/7D5A7ACA4bs6HYOmCr2avM8XiigS8vUSODWS+3hVTdVJs9MAP8xVQxZQr9ZtQCw+0fRik8Roc4AjxGh+181y3J5dL9gtVls7i9+CFncoxjRSXWk9tcL72ybf4zeqi9+rPTtSH3Ns3X3dwexEp19q3s8A/exn4pM43i//6XH2X0MEQUu7U7p0F++Vf5xjQdTgs6iaptrZnrSZcGd1hA/+RX/NjO7k5troEsipPXs/3yG+43qnhEoW4GnNyfUxbwVultK9rg6UJySRgNeGOT3rSOcKInLLCpC0tptYipeLw3+mFxbQbiZzw9rfop/weJAxQROW/EgF1Lgp4nuOtnf4ZMTI+iC9VuEfiqJN1mJAnRZ1CshqfW4Ktf5vJOOWgXF5wS5qVOd3dtfcoPCasCqCceTXBtA1dsAeZdUkcGYXkPnx6KTBSXyrHM1sQOB0P7uV2gAnDVJGtvBexgi+9k+pjbm4eDlO75rd4J/DOtipliGX6ff1m24Y/HOXIvytgv/+Hn4mGNTe+ILitqFG7c0dtQDhcAHxhcN74gDb+SmulFgE3/wm9oMcAAA"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="header-area">
+        <div class="main-header header-sticky">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <div class="col-xl-2 col-lg-2 col-md-1">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img
+                      src="data:image/webp;base64,UklGRqAEAABXRUJQVlA4TJMEAAAv0gAMEH9kkG2kopzH+5PtIQQCSSj7qywlEEhxKDPsuJEkRdqqriH/DTx6ngHUpLZtG8ZtcsoduFYAQBgQMSAAggEwAIAACMAEcABMAIaJBWHCIBCEYUIARp9hgjggDoABYmLCABDoYRCAAACAIBCCgVgQAEEwEASA+wsEABAE8UYiEQgEHI5GI/HBC4lCopBIJOr1SgQSjRscDUcj4Gg4HIVGoeFwOKjd2qTIbd5w0mYUtFnUoXXEmrDZFmOtzCAMszlsxv/sqaruEvR8jeg/BLdtJEnyVHdP9rJT1cfOEyD0Yu76o1lUjO7U6/W5649RKVqoM83ffIrK0HM2KqZwq65r4fZzVIDmGdVSeFpP0uLdF8i5btRTtZzxwuwcI7Xw10tkWY/qNn2LLOsPI38jxzp7zTYuXUSO9dC4/x5Z1m9G/o2Z9FJR8w0tIYT9TjOyTRpsUKwxzxE721Qj2xTLzr/KEBoQDRG3YQl97qptXL6AiEhRrxrGHxNmOpU8QXPYybtUkK4iao6CPKqNcSOD+xEJgagNS+j7xv2PSIeoRZrp1LyMeSVuxMwK0sCPRG9sWEL/YuR/E7QtIQwReTWuktGtHA1jEXM2DKHPX7GNK+eT6PS+pWAG1KYNdoZe0TbNTQghDLI+iTJbnMdEWZjTy46PItQGxZKxkRz6nnH/MxIQ+cqox7T0LcxCvMHClzLN/NuLhJ7EjBxjk9HC8myzkRz6JyP3DNRknKDOoisbPBaNW6woY+VUO0APZCE19IXLtnH1nIHeMrRszqC01SJOJD3usZXER652g8yjidTQ/xn3vyKdwH6xclZLW05pdYiuHgtFqZrwoV3sxAK0kRr6ByMPANuP+ch6geoi4cdMECWvgmAnMfTFS7Zx7ayRTqwYYw1YT/xj3P8OE2NBO9N6pa2GJAaDg41QqkU7C0Xf+WVizERq6O+MPMTG5iSKIB7llMDk9JANWtxCuXKav0VtRg3Qbgy9JlJDf2Mbc7NoPfOWmjRhhQHAfuIzpLRiUI3rFZ8r9YuOiZ3SphYL6aFf3F02cB34jD6yIhYdFR5wYSwhfady7VwBlLdjwQG+YNNieWoxhX5VWErlETbN0NQuOw0UURGJu409s6wg6I2F8PFzXbsx2UIDeH57IWXMA+1EdOR1M2jRwxxzanr5B/avIO6YHqJF9Sek2LWEfqdjZ3LhJvBV6a/dDvygEqaW8H/IILsfrhxwNSXDoIcJU+hApz7Yzj8ZvTmv8wxbmMHxzXbgApvUsU6PSHrlylFbQQDfOcZmOjjYMIV+4yQRHX8/obAAdHD3/VgZNXiHtSOnfayA1QndOE3ECvyC+OT6HOM2cFTMyH7kV4dJ6GjHFgCYfVQWnmO7sDOwFfnVu0NECYU/gfeZk5EDyLL2kq6v2zdxOydKF10OmVZP5EUzX5aFnUR0ugnZ1oZRomjhi9bDNPnhm8i4DlKSPt+BrOu1TxOORg+9hsxr+0R0dG9A/hUiR4N7UAV646R2NPXx26gGNU7LcWQ3KkPieWy87XVUh/jzWN8mVIr2Eg3vQ9Wo+5P3kH8BAA=="
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="col-xl-10 col-lg-10 col-md-10">
+                <div
+                  class="menu-main d-flex align-items-center justify-content-end"
+                >
+                  <div class="main-menu f-right d-none d-lg-block">
+                    <nav>
+                      <ul id="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li>
+                          <a href="#">Page</a>
+                          <ul class="submenu">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li>
+                              <a href="blog_details.html">Blog Details</a>
+                            </li>
+                            <li><a href="elements.html">Element</a></li>
+                            <li>
+                              <a href="portfolio_details.html"
+                                >Portfolio Details</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="header-right-btn f-right d-none d-xl-block ml-20">
+                    <a href="#" class="btn header-btn">Get Free Consultent</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none">
+                  <!-- <div class="slicknav_menu">
+                    <a
+                      href="#"
+                      aria-haspopup="true"
+                      role="button"
+                      tabindex="0"
+                      class="slicknav_btn slicknav_collapsed"
+                      style="outline: none"
+                      ><span class="slicknav_menutxt">MENU</span
+                      ><span class="slicknav_icon"
+                        ><span class="slicknav_icon-bar"></span></span
+                    ></a>
+                    <ul
+                      class="slicknav_nav slicknav_hidden"
+                      aria-hidden="true"
+                      role="menu"
+                      style="display: none"
+                    >
+                      <li>
+                        <a href="index.html" role="menuitem" tabindex="-1"
+                          >Home</a
+                        >
+                      </li>
+                      <li>
+                        <a href="about.html" role="menuitem" tabindex="-1"
+                          >About</a
+                        >
+                      </li>
+                      <li>
+                        <a href="services.html" role="menuitem" tabindex="-1"
+                          >Services</a
+                        >
+                      </li>
+                      <li>
+                        <a href="portfolio.html" role="menuitem" tabindex="-1"
+                          >Portfolio</a
+                        >
+                      </li>
+                      <li class="slicknav_collapsed slicknav_parent">
+                        <a
+                          href="#"
+                          role="menuitem"
+                          aria-haspopup="true"
+                          tabindex="-1"
+                          class="slicknav_item slicknav_row"
+                          style="outline: none"
+                          ><a href="#" tabindex="-1">Page</a>
+                          <span class="slicknav_arrow">+</span></a
+                        >
+                        <ul
+                          class="submenu slicknav_hidden"
+                          role="menu"
+                          aria-hidden="true"
+                          style="display: none"
+                        >
+                          <li>
+                            <a href="blog.html" role="menuitem" tabindex="-1"
+                              >Blog</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="blog_details.html"
+                              role="menuitem"
+                              tabindex="-1"
+                              >Blog Details</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="elements.html"
+                              role="menuitem"
+                              tabindex="-1"
+                              >Element</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="portfolio_details.html"
+                              role="menuitem"
+                              tabindex="-1"
+                              >Portfolio Details</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="contact.html" role="menuitem" tabindex="-1"
+                          >Contact</a
+                        >
+                      </li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <div class="slider-area">
+        <div class="slider-active slick-initialized slick-slider">
+          <div class="slick-list draggable">
+            <div class="slick-track" style="opacity: 1; width: 3166px">
+              <div
+                class="single-slider slider-height d-flex align-items-center slick-slide slick-current slick-active"
+                data-slick-index="0"
+                aria-hidden="false"
+                tabindex="0"
+                style="
+                  width: 1583px;
+                  position: relative;
+                  left: 0px;
+                  top: 0px;
+                  z-index: 999;
+                  opacity: 1;
+                "
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-8">
+                      <div class="hero__caption">
+                        <span
+                          data-animation="fadeInUp"
+                          data-delay=".4s"
+                          class=""
+                          style="animation-delay: 0.4s"
+                          >Get Every Single Solutions.</span
+                        >
+                        <h1
+                          data-animation="fadeInUp"
+                          data-delay=".6s"
+                          class=""
+                          style="animation-delay: 0.6s"
+                        >
+                          I’m Designer Haris F. Watson
+                        </h1>
+                        <p
+                          data-animation="fadeInUp"
+                          data-delay=".8s"
+                          class=""
+                          style="animation-delay: 0.8s"
+                        >
+                          jhorem rfpsum golor sidt amet, consectetur adipiscing
+                          elit, eiusmod tempor incididunt utcjhg labore bet
+                          dolore magna aliqua. Quis ipsum suspendisse ultrices
+                          gravida.
+                        </p>
+
+                        <div class="hero__btn">
+                          <a
+                            href="industries.html"
+                            class="btn hero-btn"
+                            data-animation="fadeInLeft"
+                            data-delay=".8s"
+                            tabindex="0"
+                            style="animation-delay: 0.8s"
+                            >Learn More</a
+                          >
+                          <a
+                            href="industries.html"
+                            class="btn border-btn ml-15"
+                            data-animation="fadeInRight"
+                            data-delay="1.0s"
+                            tabindex="0"
+                            style="animation-delay: 1s"
+                            >Hire Me</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="single-slider slider-height d-flex align-items-center slick-slide"
+                data-slick-index="1"
+                aria-hidden="true"
+                tabindex="-1"
+                style="
+                  width: 1583px;
+                  position: relative;
+                  left: -1583px;
+                  top: 0px;
+                  z-index: 998;
+                  opacity: 0;
+                "
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-8">
+                      <div class="hero__caption">
+                        <span data-animation="fadeInUp" data-delay=".4s"
+                          >Get Every Single Solutions.</span
+                        >
+                        <h1 data-animation="fadeInUp" data-delay=".6s">
+                          I’m Designer Haris F. Watson
+                        </h1>
+                        <p data-animation="fadeInUp" data-delay=".8s">
+                          jhorem rfpsum golor sidt amet, consectetur adipiscing
+                          elit, eiusmod tempor incididunt utcjhg labore bet
+                          dolore magna aliqua. Quis ipsum suspendisse ultrices
+                          gravida.
+                        </p>
+
+                        <div class="hero__btn">
+                          <a
+                            href="industries.html"
+                            class="btn hero-btn"
+                            data-animation="fadeInLeft"
+                            data-delay=".8s"
+                            tabindex="-1"
+                            >Learn More</a
+                          >
+                          <a
+                            href="industries.html"
+                            class="btn border-btn ml-15"
+                            data-animation="fadeInRight"
+                            data-delay="1.0s"
+                            tabindex="-1"
+                            >Hire Me</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="about-area section-paddingt30">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="about-caption mb-50">
+                <h3>Designing With Passion While Exploring The World.</h3>
+                <p class="pera1">
+                  Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut
+                  labore et dolore magna aliqua. Quis ipsum suspendisces
+                  gravida. Risus commodo viverra sebfd dho eiusmod tempor
+                  maecenas accumsan lacus.
+                </p>
+                <p>
+                  Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut
+                  labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+              <div class="about-caption2">
+                <h3>
+                  Any Type Of Query<br />
+                  &amp; Discussion.
+                </h3>
+                <p>Late talk with me</p>
+                <div class="send-cv">
+                  <a href="#">hire@colorlib.com</a>
+                  <i class="ti-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories-area section-padding3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="section-tittle mb-70">
+                <h2>What Services you will Get from me!</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="single-cat text-center mb-50">
+                <div class="cat-icon">
+                  <span class="flaticon-pen"></span>
+                </div>
+                <div class="cat-cap">
+                  <h5><a href="services.html">UI/UX Design</a></h5>
+                  <p>
+                    Free resource that will help nderstand thecv designc process
+                    and improve theroi nderstand the design process andisei
+                    impro are of vquality.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="single-cat text-center mb-50">
+                <div class="cat-icon">
+                  <span class="flaticon-speaker"></span>
+                </div>
+                <div class="cat-cap">
+                  <h5><a href="services.html">Digital Marketing</a></h5>
+                  <p>
+                    Free resource that will help nderstand thecv designc process
+                    and improve theroi nderstand the design process andisei
+                    impro are of vquality.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="single-cat text-center mb-50">
+                <div class="cat-icon">
+                  <span class="flaticon-portfolio"></span>
+                </div>
+                <div class="cat-cap">
+                  <h5><a href="services.html">Website Design</a></h5>
+                  <p>
+                    Free resource that will help nderstand thecv designc process
+                    and improve theroi nderstand the design process andisei
+                    impro are of vquality.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-area services-padding">
+        <div class="container">
+          <div class="project-heading mb-35">
+            <div class="row align-items-end">
+              <div class="col-lg-6">
+                <div class="section-tittle">
+                  <h2>What Services you will Get from me!</h2>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="properties__button">
+                  <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <a
+                        class="nav-item nav-link active"
+                        id="nav-home-tab"
+                        data-toggle="tab"
+                        href="#nav-home"
+                        role="tab"
+                        aria-controls="nav-home"
+                        aria-selected="false"
+                      >
+                        All</a
+                      >
+                      <a
+                        class="nav-item nav-link"
+                        id="nav-profile-tab"
+                        data-toggle="tab"
+                        href="#nav-profile"
+                        role="tab"
+                        aria-controls="nav-profile"
+                        aria-selected="false"
+                      >
+                        Branding</a
+                      >
+                      <a
+                        class="nav-item nav-link"
+                        id="nav-contact-tab"
+                        data-toggle="tab"
+                        href="#nav-contact"
+                        role="tab"
+                        aria-controls="nav-contact"
+                        aria-selected="false"
+                        >Logo</a
+                      >
+                      <a
+                        class="nav-item nav-link"
+                        id="nav-last-tab"
+                        data-toggle="tab"
+                        href="#nav-last"
+                        role="tab"
+                        aria-controls="nav-contact"
+                        aria-selected="false"
+                        >UI/UX
+                      </a>
+                      <a
+                        class="nav-item nav-link"
+                        id="nav-technology"
+                        data-toggle="tab"
+                        href="#nav-techno"
+                        role="tab"
+                        aria-controls="nav-contact"
+                        aria-selected="false"
+                        >Web Design</a
+                      >
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="tab-content active" id="nav-tabContent">
+                <div
+                  class="tab-pane fade active show"
+                  id="nav-home"
+                  role="tabpanel"
+                  aria-labelledby="nav-home-tab"
+                >
+                  <div class="services-caption">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-8 col-sm-8">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices1.png.pagespeed.ic.CUSBfud6Mi.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices2.png.pagespeed.ic.ptrM11wVrw.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices3.png.pagespeed.ic._OiupxHuSe.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices4.png.pagespeed.ic.hVym9sD8pi.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices5.png.pagespeed.ic.RIUpuP8Qre.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices6.png.pagespeed.ic.suCHqM6822.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="nav-profile"
+                  role="tabpanel"
+                  aria-labelledby="nav-profile-tab"
+                >
+                  <div class="services-caption">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-8 col-sm-8">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices6.png.pagespeed.ic.suCHqM6822.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices2.png.pagespeed.ic.ptrM11wVrw.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices3.png.pagespeed.ic._OiupxHuSe.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices4.png.pagespeed.ic.hVym9sD8pi.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices5.png.pagespeed.ic.RIUpuP8Qre.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices1.png.pagespeed.ic.CUSBfud6Mi.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="nav-contact"
+                  role="tabpanel"
+                  aria-labelledby="nav-contact-tab"
+                >
+                  <div class="services-caption">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-8 col-sm-8">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices2.png.pagespeed.ic.ptrM11wVrw.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices1.png.pagespeed.ic.CUSBfud6Mi.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices3.png.pagespeed.ic._OiupxHuSe.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices4.png.pagespeed.ic.hVym9sD8pi.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices5.png.pagespeed.ic.RIUpuP8Qre.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices6.png.pagespeed.ic.suCHqM6822.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="nav-last"
+                  role="tabpanel"
+                  aria-labelledby="nav-last-tab"
+                >
+                  <div class="services-caption">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-8 col-sm-8">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices1.png.pagespeed.ic.CUSBfud6Mi.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices2.png.pagespeed.ic.ptrM11wVrw.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices3.png.pagespeed.ic._OiupxHuSe.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices4.png.pagespeed.ic.hVym9sD8pi.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices5.png.pagespeed.ic.RIUpuP8Qre.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices6.png.pagespeed.ic.suCHqM6822.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="nav-techno"
+                  role="tabpanel"
+                  aria-labelledby="nav-technology"
+                >
+                  <div class="services-caption">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-8 col-sm-8">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices3.png.pagespeed.ic._OiupxHuSe.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices2.png.pagespeed.ic.ptrM11wVrw.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="single-services mb-30">
+                              <img
+                                src="assets/img/service/xservices1.png.pagespeed.ic.CUSBfud6Mi.webp"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices4.png.pagespeed.ic.hVym9sD8pi.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices5.png.pagespeed.ic.RIUpuP8Qre.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-services mb-30">
+                          <img
+                            src="assets/img/service/xservices6.png.pagespeed.ic.suCHqM6822.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wantToWork-area w-padding2">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-xl-6 col-lg-8 col-md-8">
+              <div class="wantToWork-caption wantToWork-caption2">
+                <h2>Dont worry for contact i`m available</h2>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-3">
+              <a href="#" class="btn btn-black f-right">Contact Me Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="client-comments section-paddingt30">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+              <div class="section-tittle mb-70">
+                <h2>Some Possitive Feedback That Encourage Us</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest-blog-area">
+          <div class="container">
+            <div class="custom-row">
+              <div class="blog-active slick-initialized slick-slider">
+                <button
+                  type="button"
+                  class="slick-prev slick-arrow"
+                  style="display: block"
+                >
+                  <i class="ti-angle-left"></i>
+                </button>
+
+                <div class="slick-list draggable">
+                  <div
+                    class="slick-track"
+                    style="
+                      opacity: 1;
+                      width: 4400px;
+                      transform: translate3d(-1200px, 0px, 0px);
+                    "
+                  >
+                    <div
+                      class="col-xl-4 slick-slide slick-cloned"
+                      data-slick-index="-3"
+                      aria-hidden="true"
+                      tabindex="-1"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog2.png.pagespeed.ic.vduKNjHUYq.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide slick-cloned"
+                      data-slick-index="-2"
+                      aria-hidden="true"
+                      tabindex="-1"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog3.png.pagespeed.ic.VrOAiMGtdT.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide slick-cloned"
+                      data-slick-index="-1"
+                      aria-hidden="true"
+                      tabindex="-1"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog2.png.pagespeed.ic.vduKNjHUYq.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide slick-current slick-active"
+                      data-slick-index="0"
+                      aria-hidden="false"
+                      tabindex="0"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog1.png.pagespeed.ic.z4d2Tq3oGA.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide slick-active"
+                      data-slick-index="1"
+                      aria-hidden="false"
+                      tabindex="0"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog2.png.pagespeed.ic.vduKNjHUYq.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide slick-active"
+                      data-slick-index="2"
+                      aria-hidden="false"
+                      tabindex="0"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog3.png.pagespeed.ic.VrOAiMGtdT.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide"
+                      data-slick-index="3"
+                      aria-hidden="true"
+                      tabindex="-1"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog2.png.pagespeed.ic.vduKNjHUYq.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide slick-cloned"
+                      data-slick-index="4"
+                      aria-hidden="true"
+                      tabindex="-1"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog1.png.pagespeed.ic.z4d2Tq3oGA.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide slick-cloned"
+                      data-slick-index="5"
+                      aria-hidden="true"
+                      tabindex="-1"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog2.png.pagespeed.ic.vduKNjHUYq.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide slick-cloned"
+                      data-slick-index="6"
+                      aria-hidden="true"
+                      tabindex="-1"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog3.png.pagespeed.ic.VrOAiMGtdT.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-xl-4 slick-slide slick-cloned"
+                      data-slick-index="7"
+                      aria-hidden="true"
+                      tabindex="-1"
+                      style="width: 400px"
+                    >
+                      <div class="blog-wrapper">
+                        <div class="blog-inner">
+                          <div class="blog-top">
+                            <div class="person-img">
+                              <img
+                                src="assets/img/gallery/xblog2.png.pagespeed.ic.vduKNjHUYq.webp"
+                                alt=""
+                              />
+                            </div>
+                            <div class="comment-person">
+                              <h2>Bradley Erickson</h2>
+                              <span>UI/UX Designer</span>
+                            </div>
+                          </div>
+                          <p>
+                            Consectetur adipisicing elit, seddosdoe eiusmod
+                            tempor incididunt utore etstes dolore magna aliqua.
+                            Ut imminim restai veniam, quis nostrud.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  class="slick-next slick-arrow"
+                  style="display: block"
+                >
+                  <i class="ti-angle-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="brand-area pb-bottom">
+        <div class="container">
+          <div
+            class="brand-active brand-border pt-50 pb-40 slick-initialized slick-slider"
+          >
+            <div class="slick-list draggable">
+              <div
+                class="slick-track"
+                style="
+                  opacity: 1;
+                  width: 4102px;
+                  transform: translate3d(-2051px, 0px, 0px);
+                "
+              >
+                <div
+                  class="single-brand slick-slide slick-cloned"
+                  data-slick-index="-4"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand2.png.pagespeed.ic.rFiXzXgh9r.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-cloned"
+                  data-slick-index="-3"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand3.png.pagespeed.ic.BidJFeCvq3.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-cloned"
+                  data-slick-index="-2"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand4.png.pagespeed.ic.W5ZAIexfpO.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-cloned"
+                  data-slick-index="-1"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand2.png.pagespeed.ic.rFiXzXgh9r.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide"
+                  data-slick-index="0"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand1.png.pagespeed.ic.vsJKXq8o6n.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide"
+                  data-slick-index="1"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand2.png.pagespeed.ic.rFiXzXgh9r.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide"
+                  data-slick-index="2"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand3.png.pagespeed.ic.BidJFeCvq3.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-current slick-active"
+                  data-slick-index="3"
+                  aria-hidden="false"
+                  tabindex="0"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand4.png.pagespeed.ic.W5ZAIexfpO.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-active"
+                  data-slick-index="4"
+                  aria-hidden="false"
+                  tabindex="0"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand2.png.pagespeed.ic.rFiXzXgh9r.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-cloned slick-active"
+                  data-slick-index="5"
+                  aria-hidden="false"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand1.png.pagespeed.ic.vsJKXq8o6n.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-cloned slick-active"
+                  data-slick-index="6"
+                  aria-hidden="false"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand2.png.pagespeed.ic.rFiXzXgh9r.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-cloned"
+                  data-slick-index="7"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand3.png.pagespeed.ic.BidJFeCvq3.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-cloned"
+                  data-slick-index="8"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand4.png.pagespeed.ic.W5ZAIexfpO.webp"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="single-brand slick-slide slick-cloned"
+                  data-slick-index="9"
+                  aria-hidden="true"
+                  tabindex="-1"
+                  style="width: 293px"
+                >
+                  <img
+                    src="assets/img/gallery/xbrand2.png.pagespeed.ic.rFiXzXgh9r.webp"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section
+        class="contact-info-area w-padding2"
+        data-background="assets/img/gallery/section_bg04.jpg"
+        style="background-image: url('assets/img/gallery/section_bg04.jpg')"
+      >
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-5 col-lg-7">
+              <div class="contact-caption mb-50">
+                <h3>If Not Now, When? Let’s Work Together!</h3>
+                <p>
+                  Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut
+                  labore et dolore magna aliqua. Quis ipsum suspendisces
+                  gravida. Risus commodo viverra.
+                </p>
+                <img
+                  src="assets/img/gallery/xsin.png.pagespeed.ic.4L7r6tiIs5.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-5">
+              <form action="#" class="contact-wrapper">
+                <input type="text" name="name" placeholder="Full Name" />
+                <input type="email" name="email" placeholder="Email Address" />
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Your Message"
+                ></textarea>
+                <button class="submit-btn2" type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-------------- footer area start --------------->
+    <footer>
+      <div class="footer-area">
+        <div class="container">
+          <div class="footer-top footer-padding">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <div class="footer-top-cap text-center">
+                  <img
+                    src="assets/img/logo/xlogo2_footer.png.pagespeed.ic.Qo1tA9v0wW.webp"
+                    alt=""
+                  />
+                  <span><a href="#">hireme@portfolio.com</a></span>
+                  <p>221B Baker Street, Post office Box 353</p>
+                  <p>Park Road, USA - 215431</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-xl-9 col-lg-8">
+                <div class="footer-copy-right">
+                  <p>
+                    Copyright ©
+                    <script
+                      type="text/javascript"
+                      async=""
+                      src="https://www.google-analytics.com/analytics.js"
+                    ></script>
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    2022 All rights reserved | This template is made with
+                    <i class="fa fa-heart" aria-hidden="true"></i> by
+                    <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4">
+                <div class="footer-social f-right">
+                  <a>Stay Connected</a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fas fa-globe"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="back-top" style="display: none">
+      <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <script src="assets/js/modernizr-3.5.0.min.js"></script>
+
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/popper.min.js+bootstrap.min.js+jquery.slicknav.min.js.pagespeed.jc.CqrcoCmaFq.js"></script>
+    <script>
+      eval(mod_pagespeed_dTbDIAUucP);
+    </script>
+    <script>
+      eval(mod_pagespeed_iGTEgL3O$f);
+    </script>
+
+    <script>
+      eval(mod_pagespeed_lRnLAmol0Q);
+    </script>
+
+    <script src="assets/js/owl.carousel.min.js+slick.min.js.pagespeed.jc.5xTgzjDLbM.js"></script>
+    <script>
+      eval(mod_pagespeed_XfyQnh0ct$);
+    </script>
+    <script>
+      eval(mod_pagespeed_0o39riLBKz);
+    </script>
+
+    <script src="assets/js/wow.min.js+animated.headline.js+jquery.magnific-popup.js+jquery.nice-select.min.js+jquery.sticky.js+contact.js+jquery.form.js.pagespeed.jc.ZrGbW-m2aX.js"></script>
+    <script>
+      eval(mod_pagespeed_B2HQGvNWhV);
+    </script>
+    <script>
+      eval(mod_pagespeed_$kz5tKOPy7);
+    </script>
+    <script>
+      eval(mod_pagespeed_R1vJqtWC31);
+    </script>
+
+    <script>
+      eval(mod_pagespeed_cB2uGD$gaA);
+    </script>
+    <script>
+      eval(mod_pagespeed_lmdb5AOtD8);
+    </script>
+
+    <script>
+      eval(mod_pagespeed_BWxOCoKctF);
+    </script>
+    <script>
+      eval(mod_pagespeed_EfG1uasN2_);
+    </script>
+    <script src="assets/js/jquery.validate.min.js+mail-script.js+jquery.ajaxchimp.min.js+plugins.js+main.js.pagespeed.jc.hMoYQgy176.js"></script>
+    <script>
+      eval(mod_pagespeed_UdRltdMBIc);
+    </script>
+    <script>
+      eval(mod_pagespeed_0F25m0kByK);
+    </script>
+    <script>
+      eval(mod_pagespeed_M0zlJz9GTB);
+    </script>
+
+    <script>
+      eval(mod_pagespeed_L4$IrUreQG);
+    </script>
+    <script>
+      eval(mod_pagespeed_QrZXvWip6u);
+    </script>
+
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-23581568-13");
+    </script>
+    <script
+      defer=""
+      src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+      integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+      data-cf-beacon='{"rayId":"713fe5a3ccf3f444","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
