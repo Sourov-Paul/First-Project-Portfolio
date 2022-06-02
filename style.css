@@ -1,0 +1,65 @@
+body {
+    font-family: "Rubik",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    overflow: visible;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Rufina",serif;
+    color: #000a2d;
+    margin-top: 0;
+    font-style: normal;
+    line-height: 1.2;
+}
+p{
+  font-family: "Rubik",sans-serif;
+  color: #10285d;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.slider-height2 {
+    background-image: url(images/hero2.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 390px;
+}
+.slider-area .hero-cap h2 {
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+  }
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #d80202;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
